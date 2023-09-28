@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "Pomodoro",
-    "slug": "Pomodoro",
+    "name": "TaeKwonDo",
+    "slug": "weather",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/karate.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/karate.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#3E3D4F"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/karate.png",
+        "backgroundColor": "#3E3D4F"
+      },
+      "package": "pomodoro.com"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0da0340a-c5ac-4960-b5c2-deb75316e5cd"
+      }
+    },
+    "owner": "dered"
   }
 }
